@@ -1,0 +1,68 @@
+{
+    "2025": [
+        {
+            "date": "2025-01-21",
+            "book": "Genesis",
+            "chapter": "1",
+            "passages": [
+                "The Creation of the World"
+            ]
+        },
+        {
+            "date": "2025-01-22",
+            "book": "Genesis",
+            "chapter": "2-3",
+            "passages": [
+                "The Seventh Day, God Rests",
+                "The Creation of Man and Woman",
+                "The Fall"
+            ]
+        },
+        {
+            "date": "2025-01-23",
+            "book": "Genesis",
+            "chapter": "4-5",
+            "passages": [
+                "Cain and Abel",
+                "The Descendants of Adam"
+            ]
+        },
+        {
+            "date": "2025-01-24",
+            "book": "Genesis",
+            "chapter": "6-7",
+            "passages": [
+                "Increasing Corruption on Earth",
+                "Noah and the Flood",
+                "The Flood Subsides"
+            ]
+        },
+        {
+            "date": "2025-01-25",
+            "book": "Matthew",
+            "chapter": "1",
+            "passages": [
+                "The Genealogy of Jesus Christ",
+                "The Birth of Jesus Christ"
+            ]
+        },
+        {
+            "date": "2025-01-26",
+            "book": "Matthew",
+            "chapter": "5:1-16",
+            "passages": [
+                "The Beatitudes",
+                "Salt and Light"
+            ],
+            "esvLink": "https://www.esv.org/Matthew+5:1-16/"
+        },
+        {
+            "date": "2025-01-27",
+            "book": "Psalms",
+            "chapter": "23",
+            "passages": [
+                "The Lord Is My Shepherd"
+            ]
+        }
+    ]
+}

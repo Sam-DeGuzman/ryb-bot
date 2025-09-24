@@ -1,0 +1,42 @@
+{
+  "name": "ryb-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "schedule": "tsx src/scheduled-send.ts",
+    "test-bot": "tsx src/test-bot.ts",
+    "test-telegram": "tsx src/lib/telegram.ts",
+    "get-channel-id": "tsx scripts/get-channel-id.ts",
+    "test-message": "tsx src/lib/message-composer.ts",
+    "test-today": "tsx src/test-today-message.ts",
+    "seed": "dotenv -e .env -- tsx supabase/seeder.ts",
+    "seed:dev": "dotenv -e env/.env.development -- tsx supabase/seeder.ts",
+    "seed:remote": "dotenv -e env/.env.development -- tsx scripts/seed-all.ts",
+    "seed-channel": "tsx scripts/seed-current-channel.ts",
+    "seed-all": "tsx scripts/seed-all.ts",
+    "supabase:link": "dotenv -e env/.env.development -- sh -c 'supabase link --project-ref $SUPABASE_PROJECT_REF --password $DATABASE_PASSWORD'",
+    "supabase:diff": "dotenv -e .env -- sh -c 'supabase db diff --linked --file \"$1\"' --",
+    "supabase:diff-remote": "dotenv -e .env -- sh -c 'rm -rf /tmp/supabase-diff && mkdir -p /tmp/supabase-diff && cd /tmp/supabase-diff && supabase init temp-project && supabase db diff --db-url \"$DATABASE_URL\" --file \"$1\"' --",
+    "supabase:push:dev": "dotenv -e env/.env.development -- sh -c 'SUPABASE_ACCESS_TOKEN=$SUPABASE_ACCESS_TOKEN supabase db push --password $DATABASE_PASSWORD'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-telegram-bot-api": "^0.64.11",
+    "dotenv": "^17.2.2",
+    "dotenv-cli": "^10.0.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "supabase": "^2.40.7"
+  }
+}
