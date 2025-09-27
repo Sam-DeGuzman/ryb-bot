@@ -30,9 +30,11 @@ jobs:
         SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         BOT_TIMEZONE: Asia/Manila
       run: |
-        echo "🕘 Starting daily Bible reminder at $(TZ=Asia/Manila date)"
+        export TZ=Asia/Manila
+        echo "🕘 Starting daily Bible reminder at $(date)"
+        echo "🌐 UTC time: $(TZ=UTC date)"
         npm run schedule
-        echo "✅ Daily Bible reminder completed at $(TZ=Asia/Manila date)"
+        echo "✅ Daily Bible reminder completed at $(date)"
         
     - name: Notify on failure
       if: failure()
