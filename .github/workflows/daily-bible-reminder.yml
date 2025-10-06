@@ -2,8 +2,8 @@ name: Daily Bible Reminder
 
 on:
   schedule:
-    # Runs at 1:00 AM UTC (9:00 AM PHT) every day
-    - cron: '0 1 * * *'
+    # Runs at 11:45 PM UTC (7:45 AM PHT) every day
+    - cron: '45 23 * * *'
   workflow_dispatch: # Allow manual triggering for testing
 
 jobs:
