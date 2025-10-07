@@ -1,19 +1,22 @@
 import { supabase, DBReading, DBEncouragement } from './supabase';
 
 export async function getTodayReading(): Promise<DBReading | null> {
-  const today = new Date().toISOString().split('T')[0];
-  
+  // Get PHT date (UTC+8)
+  const now = new Date();
+  const phtTime = new Date(now.getTime() + (8 * 60 * 60 * 1000));
+  const today = phtTime.toISOString().split('T')[0];
+
   const { data, error } = await supabase
     .from('reading_plans')
     .select('*')
     .eq('date', today)
     .single();
-  
+
   if (error) {
     console.error('Error fetching today\'s reading:', error);
     return null;
   }
-  
+
   return data;
 }
 
