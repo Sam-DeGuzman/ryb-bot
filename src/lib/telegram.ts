@@ -23,13 +23,14 @@ export async function getActiveChannels(): Promise<DBTelegramChannel[]> {
     return data || [];
 }
 
-export async function sendMessageToChannel(channelId: string, message: string): Promise<void> {
+export async function sendMessageToChannel(channelId: string, message: string, messageThreadId?: number): Promise<void> {
     try {
         await bot.sendMessage(channelId, message, {
             parse_mode: 'Markdown',
             disable_web_page_preview: true,
+            message_thread_id: messageThreadId,
         });
-        console.log(`Message sent successfully to channel ${channelId}`);
+        console.log(`Message sent successfully to channel ${channelId}${messageThreadId ? ` (topic ${messageThreadId})` : ''}`);
     } catch (error) {
         console.error(`Error sending message to channel ${channelId}:`, error);
         throw error;
@@ -48,7 +49,7 @@ export async function sendMessage(message: string): Promise<{ successful: string
     await Promise.allSettled(
         channels.map(async (channel) => {
             try {
-                await sendMessageToChannel(channel.channel_id, message);
+                await sendMessageToChannel(channel.channel_id, message, channel.message_thread_id ?? undefined);
                 results.successful.push(channel.channel_id);
             } catch (error) {
                 results.failed.push({ channelId: channel.channel_id, error });
