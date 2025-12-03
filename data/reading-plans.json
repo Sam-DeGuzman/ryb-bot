@@ -1,717 +1,682 @@
 [
   {
-    "date": "2025-09-20",
-    "book": "Matthew",
-    "chapter": "26",
-    "passages": [
-      "The Plot to Kill Jesus",
-      "Jesus Anointed at Bethany",
-      "Judas to Betray Jesus",
-      "The Passover with the Disciples",
-      "Institution of the Lord's Supper",
-      "Jesus Foretells Peter's Denial",
-      "Jesus Prays in Gethsemane",
-      "Betrayal and Arrest of Jesus",
-      "Jesus Before Caiaphas and the Council",
-      "Peter Denies Jesus"
-    ]
-  },
-  {
-    "date": "2025-09-21",
-    "book": "Matthew",
-    "chapter": "27",
-    "passages": [
-      "Jesus Delivered to Pilate",
-      "Judas Hangs Himself",
-      "Jesus Before Pilate",
-      "The Crowd Chooses Barabbas",
-      "Pilate Delivers Jesus to Be Crucified",
-      "Jesus Is Mocked",
-      "The Crucifixion",
-      "The Death of Jesus",
-      "Jesus Is Buried"
-    ]
-  },
-  {
-    "date": "2025-09-22",
-    "book": "Matthew",
-    "chapter": "28",
-    "passages": [
-      "The Resurrection",
-      "The Report of the Guard",
-      "The Great Commission"
-    ]
-  },
-  {
-    "date": "2025-09-23",
-    "book": "Luke",
-    "chapter": "1",
-    "passages": [
-      "Dedication to Theophilus",
-      "Birth of John the Baptist Foretold",
-      "Birth of Jesus Foretold",
-      "Mary Visits Elizabeth",
-      "Mary's Song of Praise: The Magnificat",
-      "The Birth of John the Baptist",
-      "Zechariah's Prophecy"
-    ]
-  },
-  {
-    "date": "2025-09-24",
-    "book": "Luke",
-    "chapter": "2",
-    "passages": [
-      "The Birth of Jesus Christ",
-      "The Shepherds and the Angels",
-      "Jesus Presented at the Temple",
-      "The Return to Nazareth",
-      "The Boy Jesus in the Temple"
-    ]
-  },
-  {
-    "date": "2025-09-25",
-    "book": "Luke",
-    "chapter": "3",
-    "passages": [
-      "John the Baptist Prepares the Way",
-      "The Genealogy of Jesus Christ"
-    ]
-  },
-  {
-    "date": "2025-09-26",
-    "book": "Luke",
-    "chapter": "4",
-    "passages": [
-      "The Temptation of Jesus",
-      "Jesus Begins His Ministry",
-      "Jesus Rejected at Nazareth",
-      "Jesus Heals a Man with an Unclean Demon",
-      "Jesus Heals Many",
-      "Jesus Preaches in Synagogues"
-    ]
-  },
-  {
-    "date": "2025-09-27",
-    "book": "Luke",
-    "chapter": "5",
-    "passages": [
-      "Jesus Calls the First Disciples",
-      "Jesus Cleanses a Leper",
-      "Jesus Heals a Paralytic",
-      "Jesus Calls Levi",
-      "A Question About Fasting"
-    ]
-  },
-  {
-    "date": "2025-09-28",
-    "book": "Luke",
-    "chapter": "6",
-    "passages": [
-      "Jesus Is Lord of the Sabbath",
-      "A Man with a Withered Hand",
-      "The Twelve Apostles",
-      "Jesus Ministers to a Great Multitude",
-      "The Beatitudes and Woes",
-      "Love Your Enemies",
-      "Judging Others",
-      "A Tree and Its Fruit",
-      "Build Your House on the Rock"
-    ]
-  },
-  {
-    "date": "2025-09-29",
-    "book": "Luke",
-    "chapter": "7",
-    "passages": [
-      "Jesus Heals a Centurion's Servant",
-      "Jesus Raises a Widow's Son",
-      "Messengers from John the Baptist",
-      "A Sinful Woman Forgiven"
-    ]
-  },
-  {
-    "date": "2025-09-30",
-    "book": "Luke",
-    "chapter": "8",
-    "passages": [
-      "Women Accompanying Jesus",
-      "The Parable of the Sower",
-      "The Purpose of the Parables",
-      "A Lamp Under a Jar",
-      "Jesus' Mother and Brothers",
-      "Jesus Calms a Storm",
-      "Jesus Heals a Man with Demons",
-      "Jesus Heals a Woman and Jairus's Daughter"
-    ]
-  },
-  {
-    "date": "2025-10-01",
-    "book": "Luke",
-    "chapter": "9",
-    "passages": [
-      "Jesus Sends Out the Twelve Apostles",
-      "Herod Is Perplexed by Jesus",
-      "Jesus Feeds the Five Thousand",
-      "Peter Confesses Jesus as the Christ",
-      "Jesus Foretells His Death",
-      "Take Up Your Cross and Follow Jesus",
-      "The Transfiguration",
-      "Jesus Heals a Boy with an Unclean Spirit",
-      "Jesus Again Foretells His Death",
-      "Who Is the Greatest?",
-      "Anyone Not Against Us Is For Us",
-      "A Samaritan Village Rejects Jesus",
-      "The Cost of Following Jesus"
-    ]
-  },
-  {
-    "date": "2025-10-02",
-    "book": "Luke",
-    "chapter": "10",
-    "passages": [
-      "Jesus Sends Out the Seventy-Two",
-      "Woe to Unrepentant Cities",
-      "The Return of the Seventy-Two",
-      "Jesus Rejoices in the Father's Will",
-      "The Parable of the Good Samaritan",
-      "Martha and Mary"
-    ]
-  },
-  {
-    "date": "2025-10-03",
-    "book": "Luke",
-    "chapter": "11",
-    "passages": [
-      "The Lord's Prayer",
-      "Jesus and Beelzebul",
-      "Return of an Unclean Spirit",
-      "True Blessedness",
-      "The Sign of Jonah",
-      "The Light in You",
-      "Woes to the Pharisees and Lawyers"
-    ]
-  },
-  {
-    "date": "2025-10-04",
-    "book": "Luke",
-    "chapter": "12",
-    "passages": [
-      "Beware of the Leaven of the Pharisees",
-      "Have No Fear",
-      "Acknowledge Christ Before Men",
-      "The Parable of the Rich Fool",
-      "Do Not Be Anxious",
-      "Treasures in Heaven",
-      "You Must Be Ready",
-      "Not Peace, but Division",
-      "Interpreting the Time",
-      "Settle with Your Accuser"
-    ]
-  },
-  {
-    "date": "2025-10-05",
-    "book": "Luke",
-    "chapter": "13",
-    "passages": [
-      "Repent or Perish",
-      "The Parable of the Barren Fig Tree",
-      "A Woman with a Disabling Spirit",
-      "The Mustard Seed and the Leaven",
-      "The Narrow Door",
-      "Lament over Jerusalem"
-    ]
-  },
-  {
-    "date": "2025-10-06",
-    "book": "Luke",
-    "chapter": "14",
-    "passages": [
-      "Healing of a Man on the Sabbath",
-      "The Parable of the Wedding Feast",
-      "The Parable of the Great Banquet",
-      "The Cost of Discipleship"
-    ]
-  },
-  {
-    "date": "2025-10-07",
-    "book": "Luke",
-    "chapter": "15",
-    "passages": [
-      "The Parable of the Lost Sheep",
-      "The Parable of the Lost Coin",
-      "The Parable of the Prodigal Son"
-    ]
-  },
-  {
-    "date": "2025-10-08",
-    "book": "Luke",
-    "chapter": "16",
-    "passages": [
-      "The Parable of the Dishonest Manager",
-      "The Law and the Kingdom of God",
-      "Divorce and Remarriage",
-      "The Rich Man and Lazarus"
-    ]
-  },
-  {
-    "date": "2025-10-09",
-    "book": "Luke",
-    "chapter": "17",
-    "passages": [
-      "Temptations to Sin",
-      "Increase Our Faith",
-      "Unworthy Servants",
-      "Jesus Cleanses Ten Lepers",
-      "The Coming of the Kingdom"
-    ]
-  },
-  {
-    "date": "2025-10-10",
-    "book": "Luke",
+    "date": "2025-11-24",
+    "book": "Acts",
     "chapter": "18",
     "passages": [
-      "The Parable of the Persistent Widow",
-      "The Pharisee and the Tax Collector",
-      "Let the Children Come to Me",
-      "The Rich Ruler",
-      "Jesus Foretells His Death a Third Time",
-      "Jesus Heals a Blind Beggar"
+      "Paul in Corinth",
+      "Paul Returns to Antioch",
+      "Apollos Speaks Boldly in Ephesus"
     ]
   },
   {
-    "date": "2025-10-11",
-    "book": "Luke",
+    "date": "2025-11-25",
+    "book": "Acts",
     "chapter": "19",
     "passages": [
-      "Jesus and Zacchaeus",
-      "The Parable of the Ten Minas",
-      "The Triumphal Entry",
-      "Jesus Weeps over Jerusalem",
-      "Jesus Cleanses the Temple",
-      "The Authority of Jesus Challenged"
+      "Paul in Ephesus",
+      "The Sons of Sceva",
+      "A Riot at Ephesus"
     ]
   },
   {
-    "date": "2025-10-12",
-    "book": "Luke",
+    "date": "2025-11-26",
+    "book": "Acts",
     "chapter": "20",
     "passages": [
-      "The Authority of Jesus Challenged",
-      "The Parable of the Wicked Tenants",
-      "Paying Taxes to Caesar",
-      "Sadducees Ask About the Resurrection",
-      "Whose Son Is the Christ?",
-      "Beware of the Scribes"
+      "Paul in Macedonia and Greece",
+      "Eutychus Raised from the Dead",
+      "Paul Speaks to the Ephesian Elders"
     ]
   },
   {
-    "date": "2025-10-13",
-    "book": "Luke",
+    "date": "2025-11-27",
+    "book": "Acts",
     "chapter": "21",
     "passages": [
-      "The Widow's Offering",
-      "Jesus Foretells Destruction of the Temple",
-      "Jesus Foretells Wars and Persecution",
-      "Jesus Foretells Destruction of Jerusalem",
-      "The Coming of the Son of Man",
-      "The Lesson of the Fig Tree",
-      "Watch Yourselves"
+      "Paul Goes to Jerusalem",
+      "Paul Visits James",
+      "Paul Arrested in the Temple"
     ]
   },
   {
-    "date": "2025-10-14",
-    "book": "Luke",
+    "date": "2025-11-28",
+    "book": "Acts",
     "chapter": "22",
     "passages": [
-      "The Plot to Kill Jesus",
-      "Judas to Betray Jesus",
-      "The Passover with the Disciples",
-      "Institution of the Lord's Supper",
-      "Who Is the Greatest?",
-      "Jesus Foretells Peter's Denial",
-      "Scripture Must Be Fulfilled in Jesus",
-      "Jesus Prays on the Mount of Olives",
-      "Betrayal and Arrest of Jesus",
-      "Peter Denies Jesus",
-      "Jesus Is Mocked",
-      "Jesus Before the Council"
+      "Paul's Defense to the People",
+      "Paul and the Roman Tribune"
     ]
   },
   {
-    "date": "2025-10-15",
-    "book": "Luke",
+    "date": "2025-11-29",
+    "book": "Acts",
     "chapter": "23",
     "passages": [
-      "Jesus Before Pilate",
-      "Jesus Before Herod",
-      "Pilate Delivers Jesus to Be Crucified",
-      "The Crucifixion",
-      "The Death of Jesus",
-      "Jesus Is Buried"
+      "Paul Before the Council",
+      "A Plot to Kill Paul",
+      "Paul Sent to Felix the Governor"
     ]
   },
   {
-    "date": "2025-10-16",
-    "book": "Luke",
+    "date": "2025-11-30",
+    "book": "Acts",
     "chapter": "24",
     "passages": [
-      "The Resurrection",
-      "On the Road to Emmaus",
-      "Jesus Appears to His Disciples",
-      "The Ascension"
+      "Paul Before Felix at Caesarea",
+      "Paul Kept in Custody"
     ]
   },
   {
-    "date": "2025-10-17",
-    "book": "John",
+    "date": "2025-12-01",
+    "book": "Acts",
+    "chapter": "25",
+    "passages": [
+      "Paul Appeals to Caesar",
+      "Paul Before Agrippa and Bernice"
+    ]
+  },
+  {
+    "date": "2025-12-02",
+    "book": "Acts",
+    "chapter": "26",
+    "passages": [
+      "Paul's Defense Before Agrippa",
+      "Paul Tells of His Conversion",
+      "Paul Tells of His Ministry"
+    ]
+  },
+  {
+    "date": "2025-12-03",
+    "book": "Acts",
+    "chapter": "27",
+    "passages": [
+      "Paul Sails for Rome",
+      "The Storm at Sea",
+      "The Shipwreck"
+    ]
+  },
+  {
+    "date": "2025-12-04",
+    "book": "Acts",
+    "chapter": "28",
+    "passages": [
+      "Paul on Malta",
+      "Paul Arrives at Rome",
+      "Paul in Rome"
+    ]
+  },
+  {
+    "date": "2025-12-05",
+    "book": "Romans",
     "chapter": "1",
     "passages": [
-      "The Word Became Flesh",
-      "The Testimony of John the Baptist",
-      "Behold, the Lamb of God",
-      "Jesus Calls the First Disciples",
-      "Jesus Calls Philip and Nathanael"
+      "Greeting",
+      "Paul's Eagerness to Preach the Gospel",
+      "The Righteous Shall Live by Faith",
+      "God's Wrath on Unrighteousness"
     ]
   },
   {
-    "date": "2025-10-18",
-    "book": "John",
+    "date": "2025-12-06",
+    "book": "Romans",
     "chapter": "2",
     "passages": [
-      "The Wedding at Cana",
-      "Jesus Cleanses the Temple",
-      "Jesus Knows What Is in Man"
+      "God's Righteous Judgment",
+      "God Shows No Partiality"
     ]
   },
   {
-    "date": "2025-10-19",
-    "book": "John",
+    "date": "2025-12-07",
+    "book": "Romans",
     "chapter": "3",
     "passages": [
-      "You Must Be Born Again",
-      "For God So Loved the World",
-      "John the Baptist Exalts Christ"
+      "God's Righteousness Upheld",
+      "No One Is Righteous",
+      "Justified by Faith"
     ]
   },
   {
-    "date": "2025-10-20",
-    "book": "John",
+    "date": "2025-12-08",
+    "book": "Romans",
     "chapter": "4",
     "passages": [
-      "Jesus and the Woman of Samaria",
-      "Jesus Heals an Official's Son"
+      "Abraham Justified by Faith",
+      "The Promise Realized Through Faith"
     ]
   },
   {
-    "date": "2025-10-21",
-    "book": "John",
+    "date": "2025-12-09",
+    "book": "Romans",
     "chapter": "5",
     "passages": [
-      "The Healing at the Pool on the Sabbath",
-      "Jesus Is Equal with God",
-      "The Authority of the Son",
-      "Witnesses to Jesus"
+      "Peace with God Through Faith",
+      "Death in Adam, Life in Christ"
     ]
   },
   {
-    "date": "2025-10-22",
-    "book": "John",
+    "date": "2025-12-10",
+    "book": "Romans",
     "chapter": "6",
     "passages": [
-      "Jesus Feeds the Five Thousand",
-      "Jesus Walks on Water",
-      "I Am the Bread of Life",
-      "The Words of Eternal Life"
+      "Dead to Sin, Alive to God",
+      "Slaves to Righteousness"
     ]
   },
   {
-    "date": "2025-10-23",
-    "book": "John",
+    "date": "2025-12-11",
+    "book": "Romans",
     "chapter": "7",
     "passages": [
-      "Jesus at the Feast of Booths",
-      "Can This Be the Christ?",
-      "Officers Sent to Arrest Jesus",
-      "Rivers of Living Water",
-      "Division Among the People",
-      "The Pharisees Are Frustrated"
+      "Released from the Law",
+      "The Law and Sin",
+      "The Struggle Within"
     ]
   },
   {
-    "date": "2025-10-24",
-    "book": "John",
+    "date": "2025-12-12",
+    "book": "Romans",
     "chapter": "8",
     "passages": [
-      "The Woman Caught in Adultery",
-      "I Am the Light of the World",
-      "The Truth Will Set You Free",
-      "You Are of Your Father the Devil",
-      "Before Abraham Was, I Am"
+      "Life in the Spirit",
+      "Heirs with Christ",
+      "Future Glory",
+      "God's Everlasting Love"
     ]
   },
   {
-    "date": "2025-10-25",
-    "book": "John",
+    "date": "2025-12-13",
+    "book": "Romans",
     "chapter": "9",
     "passages": [
-      "Jesus Heals a Man Born Blind",
-      "The Pharisees Investigate the Healing",
-      "Spiritual Blindness"
+      "God's Sovereign Choice",
+      "Israel's Unbelief"
     ]
   },
   {
-    "date": "2025-10-26",
-    "book": "John",
+    "date": "2025-12-14",
+    "book": "Romans",
     "chapter": "10",
     "passages": [
-      "I Am the Good Shepherd",
-      "I and the Father Are One",
-      "Jesus Again at the Feast of Dedication"
+      "Righteousness Through Faith in Christ",
+      "The Message for All People"
     ]
   },
   {
-    "date": "2025-10-27",
-    "book": "John",
+    "date": "2025-12-15",
+    "book": "Romans",
     "chapter": "11",
     "passages": [
-      "The Death of Lazarus",
-      "I Am the Resurrection and the Life",
-      "Jesus Weeps",
-      "Jesus Raises Lazarus",
-      "The Plot to Kill Jesus"
+      "A Remnant of Israel",
+      "Gentiles Grafted In",
+      "The Mystery of Israel's Salvation"
     ]
   },
   {
-    "date": "2025-10-28",
-    "book": "John",
+    "date": "2025-12-16",
+    "book": "Romans",
     "chapter": "12",
     "passages": [
-      "Mary Anoints Jesus at Bethany",
-      "The Plot to Kill Lazarus",
-      "The Triumphal Entry",
-      "Some Greeks Seek Jesus",
-      "The Son of Man Must Be Lifted Up",
-      "The Unbelief of the People",
-      "Jesus Came to Save the World"
+      "A Living Sacrifice",
+      "Gifts of Grace",
+      "Marks of the True Christian"
     ]
   },
   {
-    "date": "2025-10-29",
-    "book": "John",
+    "date": "2025-12-17",
+    "book": "Romans",
     "chapter": "13",
     "passages": [
-      "Jesus Washes the Disciples' Feet",
-      "Jesus Foretells Judas's Betrayal",
-      "A New Commandment",
-      "Jesus Foretells Peter's Denial"
+      "Submission to Authorities",
+      "Love Your Neighbor",
+      "Put On Christ"
     ]
   },
   {
-    "date": "2025-10-30",
-    "book": "John",
+    "date": "2025-12-18",
+    "book": "Romans",
     "chapter": "14",
     "passages": [
-      "I Am the Way, and the Truth, and the Life",
-      "Jesus Promises the Holy Spirit",
-      "Jesus Promises Peace"
+      "Do Not Pass Judgment on One Another",
+      "Do Not Cause Another to Stumble"
     ]
   },
   {
-    "date": "2025-10-31",
-    "book": "John",
+    "date": "2025-12-19",
+    "book": "Romans",
     "chapter": "15",
     "passages": [
-      "I Am the True Vine",
-      "The Hatred of the World"
+      "The Example of Christ",
+      "Christ the Hope of Jews and Gentiles",
+      "Paul the Minister to the Gentiles",
+      "Paul's Plan to Visit Rome"
     ]
   },
   {
-    "date": "2025-11-01",
-    "book": "John",
+    "date": "2025-12-20",
+    "book": "Romans",
     "chapter": "16",
     "passages": [
-      "The Work of the Holy Spirit",
-      "Your Sorrow Will Turn into Joy",
-      "I Have Overcome the World"
+      "Personal Greetings",
+      "Final Instructions and Greetings",
+      "Doxology"
     ]
   },
   {
-    "date": "2025-11-02",
-    "book": "John",
-    "chapter": "17",
-    "passages": [
-      "The High Priestly Prayer"
-    ]
-  },
-  {
-    "date": "2025-11-03",
-    "book": "John",
-    "chapter": "18",
-    "passages": [
-      "Betrayal and Arrest of Jesus",
-      "Jesus Faces Annas and Caiaphas",
-      "Peter Denies Jesus",
-      "Jesus Before Pilate",
-      "My Kingdom Is Not of This World",
-      "Pilate Delivers Jesus to Be Crucified"
-    ]
-  },
-  {
-    "date": "2025-11-04",
-    "book": "John",
-    "chapter": "19",
-    "passages": [
-      "Jesus Delivered to Be Crucified",
-      "The Crucifixion",
-      "The Death of Jesus",
-      "Jesus' Side Is Pierced",
-      "Jesus Is Buried"
-    ]
-  },
-  {
-    "date": "2025-11-05",
-    "book": "John",
-    "chapter": "20",
-    "passages": [
-      "The Resurrection",
-      "Jesus Appears to Mary Magdalene",
-      "Jesus Appears to the Disciples",
-      "Jesus and Thomas",
-      "The Purpose of This Book"
-    ]
-  },
-  {
-    "date": "2025-11-06",
-    "book": "John",
-    "chapter": "21",
-    "passages": [
-      "Jesus Appears to Seven Disciples",
-      "Jesus and the Beloved Apostle",
-      "Jesus and Peter"
-    ]
-  },
-  {
-    "date": "2025-11-07",
-    "book": "Acts",
+    "date": "2025-12-21",
+    "book": "1 Corinthians",
     "chapter": "1",
     "passages": [
-      "The Promise of the Holy Spirit",
-      "The Ascension",
-      "Matthias Chosen to Replace Judas"
+      "Greeting",
+      "Thanksgiving",
+      "Division in the Church",
+      "Christ the Wisdom and Power of God"
     ]
   },
   {
-    "date": "2025-11-08",
-    "book": "Acts",
+    "date": "2025-12-22",
+    "book": "1 Corinthians",
     "chapter": "2",
     "passages": [
-      "The Coming of the Holy Spirit",
-      "Peter's Sermon at Pentecost",
-      "The Fellowship of the Believers"
+      "Proclaiming Christ Crucified",
+      "The Spirit and Spiritual Wisdom"
     ]
   },
   {
-    "date": "2025-11-09",
-    "book": "Acts",
+    "date": "2025-12-23",
+    "book": "1 Corinthians",
     "chapter": "3",
     "passages": [
-      "The Lame Beggar Healed",
-      "Peter Speaks in Solomon's Portico"
+      "Division in the Church",
+      "Only God Gives the Growth",
+      "Foundation: Jesus Christ"
     ]
   },
   {
-    "date": "2025-11-10",
-    "book": "Acts",
+    "date": "2025-12-24",
+    "book": "1 Corinthians",
     "chapter": "4",
     "passages": [
-      "Peter and John Before the Council",
-      "The Believers Pray for Boldness",
-      "They Had Everything in Common"
+      "The Ministry of Apostles",
+      "Paul's Appeal to the Corinthians"
     ]
   },
   {
-    "date": "2025-11-11",
-    "book": "Acts",
+    "date": "2025-12-25",
+    "book": "1 Corinthians",
     "chapter": "5",
     "passages": [
-      "Ananias and Sapphira",
-      "Many Signs and Wonders Done",
-      "The Apostles Arrested and Freed",
-      "The Apostles Before the Council",
-      "Gamaliel's Advice"
+      "Sexual Immorality Defiles the Church",
+      "Cleanse Out the Leaven"
     ]
   },
   {
-    "date": "2025-11-12",
-    "book": "Acts",
+    "date": "2025-12-26",
+    "book": "1 Corinthians",
     "chapter": "6",
     "passages": [
-      "Seven Chosen to Serve",
-      "Stephen Is Seized"
+      "Lawsuits Among Believers",
+      "Flee Sexual Immorality",
+      "Your Body Is a Temple"
     ]
   },
   {
-    "date": "2025-11-13",
-    "book": "Acts",
+    "date": "2025-12-27",
+    "book": "1 Corinthians",
     "chapter": "7",
     "passages": [
-      "Stephen's Speech",
-      "The Stoning of Stephen"
+      "Principles for Marriage",
+      "The Unmarried and the Widowed",
+      "Live as You Are Called"
     ]
   },
   {
-    "date": "2025-11-14",
-    "book": "Acts",
+    "date": "2025-12-28",
+    "book": "1 Corinthians",
     "chapter": "8",
     "passages": [
-      "Saul Ravages the Church",
-      "Philip Proclaims Christ in Samaria",
-      "Simon the Magician Believes",
-      "Philip and the Ethiopian Eunuch"
+      "Food Offered to Idols",
+      "Do Not Cause Another to Stumble"
     ]
   },
   {
-    "date": "2025-11-15",
-    "book": "Acts",
+    "date": "2025-12-29",
+    "book": "1 Corinthians",
     "chapter": "9",
     "passages": [
-      "The Conversion of Saul",
-      "Saul Proclaims Jesus in Synagogues",
-      "Saul Escapes from Damascus",
-      "Saul in Jerusalem",
-      "The Healing of Aeneas",
-      "Dorcas Restored to Life"
+      "Paul Surrenders His Rights",
+      "Running the Race",
+      "Self-Discipline"
     ]
   },
   {
-    "date": "2025-11-16",
-    "book": "Acts",
+    "date": "2025-12-30",
+    "book": "1 Corinthians",
     "chapter": "10",
     "passages": [
-      "Peter and Cornelius",
-      "Peter's Vision",
-      "Peter Goes to Cornelius",
-      "Gentiles Hear the Good News",
-      "The Holy Spirit Falls on the Gentiles"
+      "Warning Against Idolatry",
+      "Do All to the Glory of God"
     ]
   },
   {
-    "date": "2025-11-17",
-    "book": "Acts",
+    "date": "2025-12-31",
+    "book": "1 Corinthians",
     "chapter": "11",
     "passages": [
-      "Peter Reports to the Church",
-      "The Church in Antioch"
+      "Head Coverings",
+      "The Lord's Supper",
+      "Examine Yourself"
     ]
   },
   {
-    "date": "2025-11-18",
-    "book": "Acts",
+    "date": "2026-01-01",
+    "book": "1 Corinthians",
     "chapter": "12",
     "passages": [
-      "James Killed and Peter Imprisoned",
-      "Peter Is Rescued",
-      "The Death of Herod"
+      "Spiritual Gifts",
+      "One Body with Many Members"
+    ]
+  },
+  {
+    "date": "2026-01-02",
+    "book": "1 Corinthians",
+    "chapter": "13",
+    "passages": [
+      "The Way of Love",
+      "Love Never Ends"
+    ]
+  },
+  {
+    "date": "2026-01-03",
+    "book": "1 Corinthians",
+    "chapter": "14",
+    "passages": [
+      "Prophecy and Tongues",
+      "Orderly Worship"
+    ]
+  },
+  {
+    "date": "2026-01-04",
+    "book": "1 Corinthians",
+    "chapter": "15",
+    "passages": [
+      "The Resurrection of Christ",
+      "The Resurrection of the Dead",
+      "The Resurrection Body",
+      "Victory Over Death"
+    ]
+  },
+  {
+    "date": "2026-01-05",
+    "book": "1 Corinthians",
+    "chapter": "16",
+    "passages": [
+      "The Collection for the Saints",
+      "Paul's Plans",
+      "Final Instructions and Greetings"
+    ]
+  },
+  {
+    "date": "2026-01-06",
+    "book": "2 Corinthians",
+    "chapter": "1",
+    "passages": [
+      "Greeting",
+      "God of All Comfort",
+      "Paul's Change of Plans"
+    ]
+  },
+  {
+    "date": "2026-01-07",
+    "book": "2 Corinthians",
+    "chapter": "2",
+    "passages": [
+      "Forgive the Sinner",
+      "Triumph in Christ",
+      "Ministers of the New Covenant"
+    ]
+  },
+  {
+    "date": "2026-01-08",
+    "book": "2 Corinthians",
+    "chapter": "3",
+    "passages": [
+      "Ministers of the New Covenant",
+      "The Glory of the New Covenant"
+    ]
+  },
+  {
+    "date": "2026-01-09",
+    "book": "2 Corinthians",
+    "chapter": "4",
+    "passages": [
+      "The Light of the Gospel",
+      "Treasure in Jars of Clay",
+      "Our Heavenly Dwelling"
+    ]
+  },
+  {
+    "date": "2026-01-10",
+    "book": "2 Corinthians",
+    "chapter": "5",
+    "passages": [
+      "Our Heavenly Dwelling",
+      "The Ministry of Reconciliation",
+      "Ambassadors for Christ"
+    ]
+  },
+  {
+    "date": "2026-01-11",
+    "book": "2 Corinthians",
+    "chapter": "6",
+    "passages": [
+      "The Temple of the Living God",
+      "Do Not Be Unequally Yoked"
+    ]
+  },
+  {
+    "date": "2026-01-12",
+    "book": "2 Corinthians",
+    "chapter": "7",
+    "passages": [
+      "Paul's Joy",
+      "Godly Grief Produces Repentance"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "book": "2 Corinthians",
+    "chapter": "8",
+    "passages": [
+      "Generosity Encouraged",
+      "The Example of Christ",
+      "Titus and His Companions"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "book": "2 Corinthians",
+    "chapter": "9",
+    "passages": [
+      "The Cheerful Giver",
+      "God Loves a Cheerful Giver",
+      "Thanks Be to God"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "book": "2 Corinthians",
+    "chapter": "10",
+    "passages": [
+      "Paul Defends His Ministry",
+      "Boast in the Lord"
+    ]
+  },
+  {
+    "date": "2026-01-16",
+    "book": "2 Corinthians",
+    "chapter": "11",
+    "passages": [
+      "Paul and the False Apostles",
+      "Paul's Sufferings as an Apostle"
+    ]
+  },
+  {
+    "date": "2026-01-17",
+    "book": "2 Corinthians",
+    "chapter": "12",
+    "passages": [
+      "Paul's Visions and His Thorn",
+      "Paul's Concern for the Corinthians"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "book": "2 Corinthians",
+    "chapter": "13",
+    "passages": [
+      "Examine Yourselves",
+      "Final Warnings and Greetings"
+    ]
+  },
+  {
+    "date": "2026-01-19",
+    "book": "Galatians",
+    "chapter": "1",
+    "passages": [
+      "Greeting",
+      "No Other Gospel",
+      "Paul Called by God"
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "book": "Galatians",
+    "chapter": "2",
+    "passages": [
+      "Paul Accepted by the Apostles",
+      "Paul Opposes Peter",
+      "Justified by Faith"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "book": "Galatians",
+    "chapter": "3",
+    "passages": [
+      "By Faith, or by Works of the Law?",
+      "The Law and the Promise",
+      "Sons of God Through Faith"
+    ]
+  },
+  {
+    "date": "2026-01-22",
+    "book": "Galatians",
+    "chapter": "4",
+    "passages": [
+      "Sons and Heirs",
+      "Paul's Concern for the Galatians",
+      "Hagar and Sarah"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "book": "Galatians",
+    "chapter": "5",
+    "passages": [
+      "Christ Has Set Us Free",
+      "Walk by the Spirit",
+      "Fruit of the Spirit"
+    ]
+  },
+  {
+    "date": "2026-01-24",
+    "book": "Galatians",
+    "chapter": "6",
+    "passages": [
+      "Bear One Another's Burdens",
+      "Doing Good to All",
+      "Final Warning and Benediction"
+    ]
+  },
+  {
+    "date": "2026-01-25",
+    "book": "Philippians",
+    "chapter": "1",
+    "passages": [
+      "Greeting",
+      "Thanksgiving and Prayer",
+      "Paul's Chains Advance the Gospel",
+      "To Live Is Christ"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "book": "Philippians",
+    "chapter": "2",
+    "passages": [
+      "Christ's Example of Humility",
+      "Lights in the World",
+      "Timothy and Epaphroditus"
+    ]
+  },
+  {
+    "date": "2026-01-27",
+    "book": "Philippians",
+    "chapter": "3",
+    "passages": [
+      "Righteousness Through Faith in Christ",
+      "Straining Toward the Goal",
+      "Our Citizenship Is in Heaven"
+    ]
+  },
+  {
+    "date": "2026-01-28",
+    "book": "Philippians",
+    "chapter": "4",
+    "passages": [
+      "Exhortations",
+      "Rejoice in the Lord",
+      "Do Not Be Anxious",
+      "Final Greetings"
+    ]
+  },
+  {
+    "date": "2026-01-29",
+    "book": "Colossians",
+    "chapter": "1",
+    "passages": [
+      "Greeting",
+      "Thanksgiving and Prayer",
+      "The Preeminence of Christ",
+      "Paul's Ministry to the Church"
+    ]
+  },
+  {
+    "date": "2026-01-30",
+    "book": "Colossians",
+    "chapter": "2",
+    "passages": [
+      "Alive in Christ",
+      "Freedom from Rules and Regulations"
+    ]
+  },
+  {
+    "date": "2026-01-31",
+    "book": "Colossians",
+    "chapter": "3",
+    "passages": [
+      "Put On the New Self",
+      "Rules for Christian Households"
+    ]
+  },
+  {
+    "date": "2026-02-01",
+    "book": "Colossians",
+    "chapter": "4",
+    "passages": [
+      "Further Instructions",
+      "Final Greetings"
     ]
   }
 ]
