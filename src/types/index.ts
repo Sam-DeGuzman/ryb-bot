@@ -2,8 +2,7 @@ export interface BibleReading {
     date: string;
     book: string;
     chapter: string;
-    passages: string[]; // Array of passage titles for the chapter(s)
-    esvLink?: string; // Optional custom link
+    esvLink?: string;
 }
 
 export interface Encouragement {

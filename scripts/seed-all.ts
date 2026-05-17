@@ -109,7 +109,7 @@ interface SeedReading {
   date: string;
   book: string;
   chapter: string;
-  passages: string[];
+  reflection_questions?: string[];
   esv_link?: string;
 }
 
@@ -142,7 +142,7 @@ async function seedReadingPlans(readings: SeedReading[]) {
         date: reading.date,
         book: reading.book,
         chapter: reading.chapter,
-        passages: reading.passages,
+        reflection_questions: reading.reflection_questions || [],
         esv_link: reading.esv_link || null
       });
 
