@@ -25,7 +25,7 @@ export interface DBReading {
   date: string;
   book: string;
   chapter: string;
-  passages: string[];
+  reflection_questions: string[];
   esv_link: string | null;
   created_at: string;
   updated_at: string;

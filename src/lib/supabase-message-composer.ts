@@ -88,32 +88,24 @@ export async function composeDailyMessage(): Promise<string | null> {
   
   // Generate or use custom ESV link
   const esvLink = reading.esv_link || generateESVLink(reading.book, reading.chapter);
-  
-  // Format passages
-  let passagesFormatted = '';
-  if (reading.passages && reading.passages.length > 0) {
-    if (reading.passages.length === 1) {
-      passagesFormatted = `📝 ${reading.passages[0]}`;
-    } else {
-      passagesFormatted = '📝 Today\'s passages:\n' + 
-        reading.passages.map(p => `  • ${p}`).join('\n');
-    }
+
+  let bottomSection = '';
+  if (reading.reflection_questions && reading.reflection_questions.length > 0) {
+    const questions = reading.reflection_questions.map(q => `• ${q}`).join('\n');
+    bottomSection = `💭 *Reflection Questions*\n${questions}`;
+  } else if (encouragement) {
+    bottomSection = `💝 *Daily Encouragement*\n${encouragement.message}`;
   }
-  
-  const encouragementText = encouragement 
-    ? `💝 *Daily Encouragement*\n${encouragement.message}`
-    : '';
-  
+
   const message = `
 📖 *Today's Bible Reading*
 📅 ${new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
 
 📚 *${reading.book} ${reading.chapter}*
-${passagesFormatted}
 
 🔗 *Read on ESV:* [Click here to read](${esvLink})
 
-${encouragementText}
+${bottomSection}
 
 _Have a blessed day! 🙏_
   `;
