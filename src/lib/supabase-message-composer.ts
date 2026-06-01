@@ -92,7 +92,7 @@ export async function composeDailyMessage(): Promise<string | null> {
   let bottomSection = '';
   if (reading.reflection_questions && reading.reflection_questions.length > 0) {
     const questions = reading.reflection_questions.map(q => `• ${q}`).join('\n');
-    bottomSection = `💭 *Reflection Questions*\n${questions}`;
+    bottomSection = `💭 *Questions to aid your Observation*\n${questions}`;
   } else if (encouragement) {
     bottomSection = `💝 *Daily Encouragement*\n${encouragement.message}`;
   }
