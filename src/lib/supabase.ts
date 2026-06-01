@@ -27,6 +27,7 @@ export interface DBReading {
   chapter: string;
   reflection_questions: string[];
   esv_link: string | null;
+  audio_url: string | null;
   created_at: string;
   updated_at: string;
 }

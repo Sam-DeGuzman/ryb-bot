@@ -37,31 +37,46 @@ export async function sendMessageToChannel(channelId: string, message: string, m
     }
 }
 
-export async function sendMessage(message: string): Promise<{ successful: string[], failed: { channelId: string, error: any }[] }> {
+export async function sendAudioToChannel(channelId: string, audioUrl: string, messageThreadId?: number): Promise<void> {
+    await bot.sendAudio(channelId, audioUrl, {
+        message_thread_id: messageThreadId,
+    } as any);
+    console.log(`Audio sent successfully to channel ${channelId}${messageThreadId ? ` (topic ${messageThreadId})` : ''}`);
+}
+
+export async function sendMessage(message: string, audioUrl?: string): Promise<{ successful: string[], failed: { channelId: string, error: any }[] }> {
     const channels = await getActiveChannels();
     const results = { successful: [] as string[], failed: [] as { channelId: string, error: any }[] };
-    
+
     if (channels.length === 0) {
         console.log('⚠️ No active channels found');
         return results;
     }
-    
+
     await Promise.allSettled(
         channels.map(async (channel) => {
             try {
                 await sendMessageToChannel(channel.channel_id, message, channel.message_thread_id ?? undefined);
                 results.successful.push(channel.channel_id);
+
+                if (audioUrl) {
+                    try {
+                        await sendAudioToChannel(channel.channel_id, audioUrl, channel.message_thread_id ?? undefined);
+                    } catch (audioError) {
+                        console.error(`Failed to send audio to channel ${channel.channel_id}:`, audioError);
+                    }
+                }
             } catch (error) {
                 results.failed.push({ channelId: channel.channel_id, error });
             }
         })
     );
-    
+
     console.log(`Message sent to ${results.successful.length}/${channels.length} channels`);
     if (results.failed.length > 0) {
         console.error(`Failed channels:`, results.failed);
     }
-    
+
     return results;
 }
 
