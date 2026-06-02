@@ -42,13 +42,18 @@ async function scheduledSend(): Promise<void> {
     }
     
     console.log('📖 Message composed successfully');
-    console.log('📤 Sending to all active channels...');
-    
-    // Send to all channels
-    const results = await sendMessage(message);
-    
-    // Get today's reading for logging
+
+    // Fetch today's reading for audio URL and logging
     const reading = await getTodayReading();
+
+    if (reading?.audio_url) {
+      console.log('🎵 Audio URL found, will send alongside message');
+    }
+
+    console.log('📤 Sending to all active channels...');
+
+    // Send to all channels
+    const results = await sendMessage(message, reading?.audio_url ?? undefined);
     
     // Log successful sends
     console.log(`✅ Successfully sent to ${results.successful.length} channels`);
