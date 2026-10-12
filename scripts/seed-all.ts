@@ -109,7 +109,7 @@ interface SeedReading {
   date: string;
   book: string;
   chapter: string;
-  reflection_questions?: string[];
+  reflection_questions?: (string | { quote?: string; question: string })[];
   esv_link?: string;
 }
 

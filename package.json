@@ -10,6 +10,8 @@
     "get-channel-id": "tsx scripts/get-channel-id.ts",
     "test-message": "tsx src/lib/message-composer.ts",
     "test-today": "tsx src/test-today-message.ts",
+    "test-reminder": "tsx src/test-reminder.ts",
+    "test-reminder:remote": "dotenv -e env/.env.development -- tsx src/test-reminder.ts",
     "seed": "dotenv -e .env -- tsx supabase/seeder.ts",
     "seed:dev": "dotenv -e env/.env.development -- tsx supabase/seeder.ts",
     "seed:remote": "dotenv -e env/.env.development -- tsx scripts/seed-all.ts",

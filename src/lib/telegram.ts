@@ -26,7 +26,7 @@ export async function getActiveChannels(): Promise<DBTelegramChannel[]> {
 export async function sendMessageToChannel(channelId: string, message: string, messageThreadId?: number): Promise<void> {
     try {
         await bot.sendMessage(channelId, message, {
-            parse_mode: 'Markdown',
+            parse_mode: 'HTML',
             disable_web_page_preview: true,
             message_thread_id: messageThreadId,
         });

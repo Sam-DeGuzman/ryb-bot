@@ -20,12 +20,16 @@ export const supabase = createClient(
 );
 
 // Database types
+export type DBReflectionQuestion =
+  | string
+  | { quote?: string | null; ref?: string | null; question: string };
+
 export interface DBReading {
   id: number;
   date: string;
   book: string;
   chapter: string;
-  reflection_questions: string[];
+  reflection_questions: DBReflectionQuestion[];
   esv_link: string | null;
   audio_url: string | null;
   created_at: string;
