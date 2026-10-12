@@ -1,4 +1,4 @@
-import { supabase, DBReading, DBEncouragement } from './supabase';
+import { supabase, DBReading, DBEncouragement, DBReflectionQuestion } from './supabase';
 
 export async function getTodayReading(): Promise<DBReading | null> {
   // Get PHT date (UTC+8)
@@ -74,44 +74,79 @@ export function generateESVLink(book: string, chapter: string): string {
   return `https://www.esv.org/${bookFormatted}+${chapterFormatted}/`;
 }
 
+function escapeHtml(text: string): string {
+  return text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function formatReadingDate(date: string): string {
+  // Dates are plain YYYY-MM-DD; parse as UTC so the label never shifts by timezone
+  return new Date(`${date}T00:00:00Z`).toLocaleDateString('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'UTC',
+  });
+}
+
+// Uploads are inconsistent: some quotes arrive pre-wrapped in quote marks and/or with the
+// reference baked in. Strip both so the composer owns the punctuation.
+function normalizeQuote(quote: string, ref?: string | null): string {
+  let text = quote.trim();
+
+  if (ref) {
+    text = text.replace(new RegExp(`\\s*\\(\\s*${escapeRegExp(ref)}\\s*\\)\\s*$`), '');
+  }
+
+  return text.replace(/^["'“‘]+/, '').replace(/["'”’]+$/, '').trim();
+}
+
+function escapeRegExp(text: string): string {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+export function formatQuestion(entry: DBReflectionQuestion, index: number): string {
+  const { quote, ref, question } =
+    typeof entry === 'string' ? { quote: null, ref: null, question: entry } : entry;
+  const quoteText = quote ? normalizeQuote(quote, ref) : '';
+  const citation = quoteText ? `“${quoteText}”${ref ? ` (${ref})` : ''}` : '';
+  const quoteLine = citation ? `\n<blockquote>${escapeHtml(citation)}</blockquote>` : '';
+
+  return `<b>${index + 1}.</b> ${escapeHtml(question)}${quoteLine}`;
+}
+
 export async function composeDailyMessage(): Promise<string | null> {
   const reading = await getTodayReading();
   const encouragement = await getRandomEncouragement();
-  
+
   if (!reading) {
-    const fallbackMessage = encouragement 
-      ? `📖 *Daily Bible Reminder*\n\nNo specific reading scheduled for today. Take time to read your favorite passage!\n\n💝 ${encouragement.message}`
-      : `📖 *Daily Bible Reminder*\n\nNo specific reading scheduled for today. Take time to read your favorite passage!`;
-    
+    const fallbackMessage = encouragement
+      ? `📖 <b>Daily Bible Reminder</b>\n\nNo specific reading scheduled for today. Take time to read your favorite passage!\n\n💝 ${escapeHtml(encouragement.message)}`
+      : `📖 <b>Daily Bible Reminder</b>\n\nNo specific reading scheduled for today. Take time to read your favorite passage!`;
+
     return fallbackMessage;
   }
-  
+
   // Generate or use custom ESV link
   const esvLink = reading.esv_link || generateESVLink(reading.book, reading.chapter);
+  const passage = escapeHtml(`${reading.book} ${reading.chapter}`);
 
   let bottomSection = '';
   if (reading.reflection_questions && reading.reflection_questions.length > 0) {
-    const questions = reading.reflection_questions.map(q => `• ${q}`).join('\n');
-    bottomSection = `💭 *Questions to aid your Observation*\n${questions}`;
+    const questions = reading.reflection_questions.map(formatQuestion).join('\n\n');
+    bottomSection = `💭 <b>Questions to aid your observation</b>\n\n${questions}`;
   } else if (encouragement) {
-    bottomSection = `💝 *Daily Encouragement*\n${encouragement.message}`;
+    bottomSection = `💝 <b>Daily Encouragement</b>\n${escapeHtml(encouragement.message)}`;
   }
 
-  const message = `
-📖 *Today's Bible Reading*
-📅 ${new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
-
-📚 *${reading.book} ${reading.chapter}*
-
-🔗 *Read on ESV:* [Click here to read](${esvLink})
+  const message = `📖 <b>${passage}</b> · <i>${formatReadingDate(reading.date)}</i>
+🔗 <a href="${escapeHtml(esvLink)}">Read on ESV</a>
 
 ${bottomSection}
 
-_Have a blessed day! 🙏_
-  `;
-  
+<i>Have a blessed day!</i> 🙏`;
+
   // Note: Individual channel logging will be handled in the broadcasting function
-  
+
   return message.trim();
 }
 
